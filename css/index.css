@@ -1,0 +1,25 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#canvas1{
+	border: 1px solid #333;
+	position: absolute;
+	left: 50%;
+	margin-left: -192px;
+}
+#reset,#start{
+	width: 140px;
+	height: 78px;
+	position: absolute;
+	left: 50%;
+	margin-left: -70px;
+	top: 320px;
+	cursor: pointer;
+	display: none;
+}
+#start{
+	display: block;
+	top: 266px;
+	background: #fff;
+}
